@@ -1,0 +1,27 @@
+.plataformas-nav {
+  margin: 7em;
+  justify-content: space-around;
+}
+.plataformas-nav a {
+  text-decoration: none;
+  color: black;
+}
+.plataformas-nav-link {
+  background: white;
+  width: 230px;
+  height: 360px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.plataformas-nav-link span {
+  font-size: 2em;
+  font-weight: bold;
+}
+.plataformas-nav-link:hover {
+  box-shadow: 0px 0px 20px #00d1ff;
+  transform: scale(1.1);
+  transition: 1s;
+}
