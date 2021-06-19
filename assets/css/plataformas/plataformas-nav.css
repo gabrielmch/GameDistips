@@ -1,0 +1,8 @@
+.plataformas__nav {
+  margin: 7em;
+  justify-content: space-around;
+}
+.plataformas__nav a {
+  text-decoration: none;
+  color: black;
+}
