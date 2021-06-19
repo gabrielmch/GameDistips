@@ -1,11 +1,12 @@
 .cabecalho__busca {
   display: flex;
-  width: 30%;
+  margin-left: 30px;
+  width: 20%;
 }
 .cabecalho__busca input {
   border: none;
   border-radius: 10px 0px 0px 10px;
-  font-size: 1.2em;
+  font-size: 16px;
   padding: 0.8em 1em;
   width: 80%;
 }
