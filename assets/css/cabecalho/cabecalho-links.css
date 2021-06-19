@@ -2,12 +2,12 @@
   align-items: center;
 }
 .cabecalho__links a {
-  margin-left: 1em;
-  text-decoration: none;
-  font-size: 2em;
   color: white;
+  font-size: 2em;
   font-weight: bold;
+  margin-left: 1em;
   padding-bottom: 0.8em;
+  text-decoration: none;
 }
 .cabecalho__links a:hover {
   text-shadow: 0px 0px 7px rgba(0, 208, 255, 0.815);

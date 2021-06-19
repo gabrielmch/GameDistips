@@ -3,11 +3,11 @@
   width: 30%;
 }
 .cabecalho__busca input {
-  padding: 0.8em 1em;
-  font-size: 1.2em;
-  width: 80%;
-  border-radius: 10px 0px 0px 10px;
   border: none;
+  border-radius: 10px 0px 0px 10px;
+  font-size: 1.2em;
+  padding: 0.8em 1em;
+  width: 80%;
 }
 .cabecalho__busca input:focus {
   outline: none;
@@ -15,11 +15,11 @@
 .cabecalho__busca--botao {
   background-color: #fff;
   background-image: url(/img/svg/lupa.svg);
-  background-repeat: no-repeat;
   background-position: center center;
-  width: 15%;
-  border-radius: 0 10px 10px 0;
+  background-repeat: no-repeat;
   border: none;
+  border-radius: 0 10px 10px 0;
+  width: 15%;
 }
 .cabecalho__busca--botao:hover {
   cursor: pointer;

@@ -2,18 +2,18 @@
 
 html,
 body {
-  width: 100%;
+  font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 0;
-  font-family: "Roboto", sans-serif;
+  width: 100%;
 }
 .background {
   background: linear-gradient(1.23deg, #cc00ff -35.11%, #000000 159.21%);
-  background-repeat: no-repeat;
   background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 .container {
+  align-items: center;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
