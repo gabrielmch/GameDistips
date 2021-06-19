@@ -1,0 +1,19 @@
+.cabecalho__nav {
+  align-items: center;
+  justify-content: space-around;
+  padding: 1em;
+}
+.cabecalho__nav a {
+  text-decoration: none;
+}
+.cabecalho__nav--font {
+  display: flex;
+  align-items: center;
+  font-size: 2em;
+  font-weight: bold;
+  color: white;
+  padding-top: 1em;
+}
+.cabecalho__nav--acesso {
+  padding-left: 38px;
+}

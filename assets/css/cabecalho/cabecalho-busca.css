@@ -1,0 +1,29 @@
+.cabecalho__busca {
+  display: flex;
+  width: 30%;
+}
+.cabecalho__busca input {
+  padding: 0.8em 1em;
+  font-size: 1.2em;
+  width: 80%;
+  border-radius: 10px 0px 0px 10px;
+  border: none;
+}
+.cabecalho__busca input:focus {
+  outline: none;
+}
+.cabecalho__busca--botao {
+  background-color: #fff;
+  background-image: url(/img/svg/lupa.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 15%;
+  border-radius: 0 10px 10px 0;
+  border: none;
+}
+.cabecalho__busca--botao:hover {
+  cursor: pointer;
+}
+.cabecalho__busca--botao:focus {
+  outline: none;
+}
