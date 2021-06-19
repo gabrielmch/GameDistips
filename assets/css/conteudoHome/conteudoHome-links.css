@@ -1,0 +1,11 @@
+.conteudo-home__secundario--links {
+  border: 1px solid #000;
+  margin: 1.6em;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+}
+.conteudo-home__secundario--links:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.87);
+  transition: 1s;
+}

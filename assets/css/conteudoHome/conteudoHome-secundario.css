@@ -1,0 +1,17 @@
+.conteudo-home__secundario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.conteudo-home__secundario button {
+  background: none;
+  border: none;
+  outline: none;
+}
+.conteudo-home__secundario button:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+.conteudo-home__secundario--nav {
+  margin: 2em;
+}
