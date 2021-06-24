@@ -20,9 +20,9 @@
   transition: all 1s;
 }
 .login__cadastro--input:hover {
+  background: #a903d3;
   box-shadow: 0px 0px 7px rgba(0, 208, 255, 0.815);
   cursor: pointer;
-  opacity: 90%;
 }
 .login__cadastro--input:focus {
   outline: none;

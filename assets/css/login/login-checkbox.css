@@ -16,6 +16,7 @@
 }
 .login__checkbox--input:hover {
   background-color: #9ea7a3;
+  cursor: pointer;
 }
 .login__checkbox--input:checked {
   background-color: #00ff8f;
