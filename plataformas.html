@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/assets/css/styles.css" />
+    <link rel="stylesheet" href="./assets/css/cabecalho.css" />
+    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-nav.css" />
+    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-busca.css" />
+    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-links.css" />
     <link
       rel="stylesheet"
       href="./assets/css/plataformas/plataformas-nav.css"
@@ -13,40 +17,20 @@
       rel="stylesheet"
       href="./assets/css/plataformas/plataformas-links.css"
     />
-    <link rel="stylesheet" href="./assets/css/cabecalho.css" />
-    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-nav.css" />
-    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-busca.css" />
-    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-links.css" />
     <link rel="stylesheet" href="./assets/css/rodape.css" />
     <link rel="stylesheet" href="./assets/css/rodape/rodape-nav.css" />
     <link rel="stylesheet" href="./assets/css/rodape/rodape-links.css" />
+    <script
+      src="./components/cabecalho.js"
+      type="text/javascript"
+      defer
+    ></script>
+    <script src="./components/rodape.js" type="text/javascript" defer></script>
     <title>GameDistips | Plataformas</title>
   </head>
   <body class="background">
-    <header class="cabecalho">
-      <nav>
-        <div class="cabecalho__nav container">
-          <a href="index.html" class="cabecalho__nav--font">GameDistips</a>
-          <div class="cabecalho__busca">
-            <input type="text" placeholder="Buscar por Jogos" />
-            <button class="cabecalho__busca--botao" type="submit"></button>
-          </div>
-          <a href="login.html" class="cabecalho__nav--font">
-            Entrar
-            <img
-              src="/img/svg/acesso-icon.svg"
-              alt=""
-              class="cabecalho__nav--login"
-            />
-          </a>
-        </div>
-        <div class="cabecalho__links">
-          <a href="#">Promoções</a>
-          <a href="#">Lista de Desejos</a>
-          <a href="plataformas.html">Plataformas</a>
-        </div>
-      </nav>
-    </header>
+    <cabecalho-nav></cabecalho-nav>
+
     <main>
       <nav class="plataformas__nav container">
         <a href="#" class="plataformas__link">
@@ -71,25 +55,7 @@
         </a>
       </nav>
     </main>
-    <footer class="rodape">
-      <nav class="rodape__nav">
-        <div class="rodape__nav--sociais container">
-          <a href="#">
-            <img src="/img/svg/sociais/facebook.svg" alt="" />
-          </a>
-          <a href="#">
-            <img src="/img/svg/sociais/twitter.svg" alt="" />
-          </a>
-          <a href="#">
-            <img src="/img/svg/sociais/instagram.svg" alt="" />
-          </a>
-        </div>
-        <div class="rodape__links cotainer">
-          <a href="#">Suporte</a>
-          <a href="#">Sobre</a>
-          <a href="#">Idioma</a>
-        </div>
-      </nav>
-    </footer>
+
+    <rodape-nav></rodape-nav>
   </body>
 </html>
