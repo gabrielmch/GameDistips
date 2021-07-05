@@ -7,7 +7,7 @@ class rodapeNav extends HTMLElement {
     this.innerHTML = `
     <footer class="rodape">
       <nav class="rodape__nav">
-        <div class="rodape__nav--sociais container">
+        <div>
           <a href="#">
             <img src="/img/svg/sociais/facebook.svg" alt="" />
           </a>
@@ -18,7 +18,7 @@ class rodapeNav extends HTMLElement {
             <img src="/img/svg/sociais/instagram.svg" alt="" />
           </a>
         </div>
-        <div class="rodape__links cotainer">
+        <div class="rodape__links">
           <a href="#">Suporte</a>
           <a href="#">Sobre</a>
           <a href="#">Idioma</a>

@@ -1,4 +1,6 @@
 .rodape {
   background: #110a38;
+  bottom: 0;
+  position: absolute;
   width: 100%;
 }

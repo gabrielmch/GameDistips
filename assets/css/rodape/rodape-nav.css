@@ -1,6 +1,6 @@
 .rodape__nav {
-  padding: 2em;
-}
-.rodape__nav--sociais {
-  gap: 20px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
 }
