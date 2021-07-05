@@ -1,0 +1,8 @@
+.conteudo-home__slides {
+  width: 20%;
+  transition: 1.5s;
+}
+.conteudo-home__slides img {
+  width: 1200px;
+  height: 320px;
+}

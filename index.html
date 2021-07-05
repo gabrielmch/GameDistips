@@ -16,6 +16,14 @@
     />
     <link
       rel="stylesheet"
+      href="./assets/css/conteudoHome/conteudoHome-slides.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/css/conteudoHome/conteudoHome-nav.css"
+    />
+    <link
+      rel="stylesheet"
       href="./assets/css/conteudoHome/conteudoHome-secundario.css"
     />
     <link
@@ -37,8 +45,54 @@
     <cabecalho-nav></cabecalho-nav>
 
     <main class="conteudo-home">
-      <section class="container">
-        <div class="conteudo-home__principal"></div>
+      <section class="conteudo-home--container">
+        <div class="conteudo-home__principal">
+          <div class="conteudo-home__principal--slides">
+            <input type="radio" name="radioSlide" id="radioHome1" />
+            <input type="radio" name="radioSlide" id="radioHome2" />
+            <input type="radio" name="radioSlide" id="radioHome3" />
+            <input type="radio" name="radioSlide" id="radioHome4" />
+
+            <div class="conteudo-home__slides primeiro">
+              <img src="./img/games/principais/sekiro.jpg" alt="" />
+            </div>
+            <div class="conteudo-home__slides">
+              <img src="./img/games/principais/horizon.png" alt="" />
+            </div>
+            <div class="conteudo-home__slides">
+              <img src="./img/games/principais/hitman.png" alt="" />
+            </div>
+            <div class="conteudo-home__slides">
+              <img src="./img/games/principais/battlelfield.jpg" alt="" />
+            </div>
+
+            <div class="conteudo-home__nav--auto">
+              <div class="conteudo-home__nav--autoBtn1"></div>
+              <div class="conteudo-home__nav--autoBtn2"></div>
+              <div class="conteudo-home__nav--autoBtn3"></div>
+              <div class="conteudo-home__nav--autoBtn4"></div>
+            </div>
+          </div>
+
+          <div class="conteudo-home__nav--manual">
+            <label
+              for="radioHome1"
+              class="conteudo-home__nav--manual-btn"
+            ></label>
+            <label
+              for="radioHome2"
+              class="conteudo-home__nav--manual-btn"
+            ></label>
+            <label
+              for="radioHome3"
+              class="conteudo-home__nav--manual-btn"
+            ></label>
+            <label
+              for="radioHome4"
+              class="conteudo-home__nav--manual-btn"
+            ></label>
+          </div>
+        </div>
       </section>
       <nav class="conteudo-home__secundario container">
         <button>
@@ -74,5 +128,7 @@
     </main>
 
     <rodape-nav></rodape-nav>
+
+    <script src="./components/conteudoHome-slides.js"></script>
   </body>
 </html>

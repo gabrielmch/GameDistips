@@ -1,11 +1,21 @@
-.conteudo-home__principal {
-  background: url(../../../img/games/sekiro.jpg) center / cover no-repeat;
-  border: 1px solid #000;
-  border-radius: 5px;
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
-  height: 360px;
-  width: 1200px;
+.conteudo-home--container {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.conteudo-home__principal:hover {
-  cursor: pointer;
+.conteudo-home__principal {
+  width: 1200px;
+  height: 320px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.conteudo-home__principal--slides {
+  width: 500%;
+  height: 320px;
+  display: flex;
+}
+.conteudo-home__principal--slides input {
+  display: none;
 }
