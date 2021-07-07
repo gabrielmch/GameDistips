@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="stylesheet" href="./assets/css/cabecalho.css" />
+    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-logo.css" />
+    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-busca.css" />
+    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-links.css" />
+    <link rel="stylesheet" href="./assets/css/login.css" />
+    <link rel="stylesheet" href="./assets/css/login/login-icon.css" />
+    <link rel="stylesheet" href="./assets/css/login/login-caixa.css" />
+    <link rel="stylesheet" href="./assets/css/login/login-forms.css" />
+    <link rel="stylesheet" href="./assets/css/login/login-checkbox.css" />
+    <link rel="stylesheet" href="./assets/css/login/login-informacao.css" />
+    <link rel="stylesheet" href="./assets/css/login/login-cadastro.css" />
+    <link rel="stylesheet" href="./assets/css/rodape.css" />
+    <link rel="stylesheet" href="./assets/css/rodape/rodape-nav.css" />
+    <link rel="stylesheet" href="./assets/css/rodape/rodape-links.css" />
+    <script
+      src="./components/cabecalho.js"
+      type="text/javascript"
+      defer
+    ></script>
+    <script src="./components/rodape.js" type="text/javascript" defer></script>
+    <title>GameDistips | Login</title>
+  </head>
+  <body class="background">
+    <cabecalho-nav></cabecalho-nav>
+
+    <main class="login container">
+      <section class="login__caixa">
+        <div class="login__icon login__icon--acesso"></div>
+        <form action="" class="login__forms">
+          <label for="loginEmail" class="login__forms--label">Email</label>
+          <input
+            type="email"
+            id="loginEmail"
+            class="login__forms--input"
+            placeholder="seuemail@email.com"
+            required
+          />
+          <br />
+          <label for="loginSenha" class="login__forms--label">Senha</label>
+          <input
+            type="password"
+            id="loginSenha"
+            class="login__forms--input"
+            placeholder="Senha"
+            required
+          />
+          <br />
+          <div class="login__informacao container">
+            <div>
+              <div class="login__checkbox">
+                <input
+                  type="checkbox"
+                  id="lembrarConta"
+                  class="login__checkbox--input"
+                />
+                <label for="lembrarConta" class="login__checkbox--label">
+                  Lembrar conta
+                </label>
+              </div>
+              <a href="#" class="login__forms--link">Esqueci minha senha</a>
+            </div>
+            <input type="submit" value="acessar" class="login__forms--acesso" />
+          </div>
+        </form>
+        <div class="login__cadastro">
+          <span class="login__cadastro--msg"> Não possui uma conta? </span>
+          <button class="login__cadastro--input">Criar Conta</button>
+        </div>
+      </section>
+    </main>
+
+    <rodape-nav></rodape-nav>
+  </body>
+</html>

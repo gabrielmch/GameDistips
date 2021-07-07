@@ -1,0 +1,17 @@
+.promocoes__conteudo {
+  display: flex;
+  flex-wrap: wrap;
+  width: 30%;
+}
+.promocoes__conteudo--item {
+  background: white;
+  width: 140px;
+  height: 220px;
+  border-radius: 10px;
+  margin: 0 0 14px 14px;
+  transition: all 1s;
+}
+.promocoes__conteudo--item:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}

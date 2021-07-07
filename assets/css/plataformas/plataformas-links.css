@@ -1,0 +1,19 @@
+.plataformas__link {
+  align-items: center;
+  background: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 360px;
+  justify-content: space-around;
+  transition: all 1s;
+  width: 230px;
+}
+.plataformas__link span {
+  font-size: 2em;
+  font-weight: bold;
+}
+.plataformas__link:hover {
+  box-shadow: 0px 0px 20px #00d1ff;
+  transform: scale(1.1);
+}

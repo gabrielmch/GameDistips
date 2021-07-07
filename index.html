@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="stylesheet" href="./assets/css/cabecalho.css" />
+    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-logo.css" />
+    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-busca.css" />
+    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-links.css" />
+    <link rel="stylesheet" href="./assets/css/conteudo-home.css" />
+    <link
+      rel="stylesheet"
+      href="./assets/css/conteudoHome/conteudoHome-principal.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/css/conteudoHome/conteudoHome-slides.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/css/conteudoHome/conteudoHome-nav.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/css/conteudoHome/conteudoHome-secundario.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/css/conteudoHome/conteudoHome-links.css"
+    />
+    <link rel="stylesheet" href="./assets/css/rodape.css" />
+    <link rel="stylesheet" href="./assets/css/rodape/rodape-nav.css" />
+    <link rel="stylesheet" href="./assets/css/rodape/rodape-links.css" />
+    <script
+      src="./components/cabecalho.js"
+      type="text/javascript"
+      defer
+    ></script>
+    <script src="./components/rodape.js" type="text/javascript" defer></script>
+    <title>GameDistips | Home</title>
+  </head>
+  <body class="background">
+    <cabecalho-nav></cabecalho-nav>
+
+    <main class="conteudo-home">
+      <section class="conteudo-home--container">
+        <div class="conteudo-home__principal">
+          <div class="conteudo-home__principal--slides">
+            <input type="radio" name="radioSlide" id="radioHome1" />
+            <input type="radio" name="radioSlide" id="radioHome2" />
+            <input type="radio" name="radioSlide" id="radioHome3" />
+            <input type="radio" name="radioSlide" id="radioHome4" />
+
+            <div class="conteudo-home__slides primeiro">
+              <img src="./img/games/principais/sekiro.jpg" alt="" />
+            </div>
+            <div class="conteudo-home__slides">
+              <img src="./img/games/principais/horizon.png" alt="" />
+            </div>
+            <div class="conteudo-home__slides">
+              <img src="./img/games/principais/hitman.png" alt="" />
+            </div>
+            <div class="conteudo-home__slides">
+              <img src="./img/games/principais/battlelfield.jpg" alt="" />
+            </div>
+
+            <div class="conteudo-home__nav--auto">
+              <div class="conteudo-home__nav--autoBtn1"></div>
+              <div class="conteudo-home__nav--autoBtn2"></div>
+              <div class="conteudo-home__nav--autoBtn3"></div>
+              <div class="conteudo-home__nav--autoBtn4"></div>
+            </div>
+          </div>
+
+          <div class="conteudo-home__nav--manual">
+            <label
+              for="radioHome1"
+              class="conteudo-home__nav--manual-btn"
+            ></label>
+            <label
+              for="radioHome2"
+              class="conteudo-home__nav--manual-btn"
+            ></label>
+            <label
+              for="radioHome3"
+              class="conteudo-home__nav--manual-btn"
+            ></label>
+            <label
+              for="radioHome4"
+              class="conteudo-home__nav--manual-btn"
+            ></label>
+          </div>
+        </div>
+      </section>
+      <nav class="conteudo-home__secundario container">
+        <button>
+          <img src="/img/svg/left-arrow.svg" alt="" />
+        </button>
+        <div class="conteudo-home__secundario--nav">
+          <a>
+            <img
+              src="/img/games/rev8.jpg"
+              alt=""
+              class="conteudo-home__secundario--links"
+            />
+          </a>
+          <a>
+            <img
+              src="/img/games/mine.jpg"
+              alt=""
+              class="conteudo-home__secundario--links"
+            />
+          </a>
+          <a>
+            <img
+              src="/img/games/cod.jpg"
+              alt=""
+              class="conteudo-home__secundario--links"
+            />
+          </a>
+        </div>
+        <button>
+          <img src="/img/svg/right-arrow.svg" alt="" />
+        </button>
+      </nav>
+    </main>
+
+    <rodape-nav></rodape-nav>
+
+    <script src="./components/conteudoHome-slides.js"></script>
+  </body>
+</html>

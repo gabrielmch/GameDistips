@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+    <link rel="stylesheet" href="./assets/css/cabecalho.css" />
+    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-logo.css" />
+    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-busca.css" />
+    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-links.css" />
+    <link rel="stylesheet" href="./assets/css/promocoes.css" />
+    <link
+      rel="stylesheet"
+      href="./assets/css/promocoes/promocoes-conteudo.css"
+    />
+    <link rel="stylesheet" href="./assets/css/promocoes/promocoes-filtro.css" />
+    <link rel="stylesheet" href="./assets/css/promocoes/promocoes-nav.css" />
+    <link rel="stylesheet" href="./assets/css/rodape.css" />
+    <link rel="stylesheet" href="./assets/css/rodape/rodape-nav.css" />
+    <link rel="stylesheet" href="./assets/css/rodape/rodape-links.css" />
+    <script
+      src="./components/cabecalho.js"
+      type="text/javascript"
+      defer
+    ></script>
+    <script src="./components/rodape.js" type="text/javascript" defer></script>
+    <title>GameDistips | Promoções</title>
+  </head>
+  <body class="background">
+    <cabecalho-nav></cabecalho-nav>
+
+    <main>
+      <section class="promocoes">
+        <div class="promocoes__conteudo">
+          <a class="promocoes__conteudo--item"></a>
+          <a class="promocoes__conteudo--item"></a>
+          <a class="promocoes__conteudo--item"></a>
+          <a class="promocoes__conteudo--item"></a>
+          <a class="promocoes__conteudo--item"></a>
+          <a class="promocoes__conteudo--item"></a>
+        </div>
+
+        <nav class="promocoes__filtro">
+          <div class="promocoes__nav">
+            <input type="text" class="promocoes__nav--input" />
+            <button class="promocoes__nav--botao"></button>
+          </div>
+          <button class="promocoes__filtro--botao">Filtrar por preço</button>
+          <button class="promocoes__filtro--botao">
+            Filtrar por categoria
+          </button>
+          <button class="promocoes__filtro--botao">
+            Filtrar por distribuidora
+          </button>
+          <button class="promocoes__filtro--botao">Filtrar por sistema</button>
+        </nav>
+      </section>
+    </main>
+
+    <rodape-nav></rodape-nav>
+  </body>
+</html>
