@@ -15,7 +15,7 @@
 }
 .cabecalho__busca--botao {
   background-color: #fff;
-  background-image: url(/img/svg/lupa.svg);
+  background-image: url(./img/svg/lupa.svg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: 22px;
