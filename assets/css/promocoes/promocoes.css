@@ -1,8 +1,0 @@
-.promocoes {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin: 2em;
-  height: 100vh;
-  align-items: flex-start;
-}
