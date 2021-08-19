@@ -9,9 +9,10 @@ body {
   height: 100vh;
 }
 .background {
-  background: linear-gradient(1.23deg, #cc00ff -35.11%, #000000 159.21%);
+  background: linear-gradient(359.84deg, #cc00ff 2.57%, #000000 239.95%);
   background-attachment: fixed;
   background-repeat: no-repeat;
+  height: 100vh;
 }
 .container {
   align-items: center;

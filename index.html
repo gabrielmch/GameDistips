@@ -5,34 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/css/styles.css" />
-    <link rel="stylesheet" href="./assets/css/cabecalho.css" />
-    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-logo.css" />
+    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho.css" />
     <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-busca.css" />
     <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-links.css" />
-    <link rel="stylesheet" href="./assets/css/conteudo-home.css" />
+    <link rel="stylesheet" href="./assets/css/conteudoHome/conteudo-home.css" />
     <link
       rel="stylesheet"
-      href="./assets/css/conteudoHome/conteudoHome-principal.css"
+      href="./assets/css/conteudoHome/destaques-home.css"
     />
     <link
       rel="stylesheet"
-      href="./assets/css/conteudoHome/conteudoHome-slides.css"
-    />
-    <link
-      rel="stylesheet"
-      href="./assets/css/conteudoHome/conteudoHome-nav.css"
-    />
-    <link
-      rel="stylesheet"
-      href="./assets/css/conteudoHome/conteudoHome-secundario.css"
-    />
-    <link
-      rel="stylesheet"
-      href="./assets/css/conteudoHome/conteudoHome-links.css"
+      href="./assets/css/conteudoHome/plataformas-home.css"
     />
     <link rel="stylesheet" href="./assets/css/rodape.css" />
     <link rel="stylesheet" href="./assets/css/rodape/rodape-nav.css" />
     <link rel="stylesheet" href="./assets/css/rodape/rodape-links.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css"
+    />
     <script
       src="./components/cabecalho.js"
       type="text/javascript"
@@ -42,93 +34,71 @@
     <title>GameDistips | Home</title>
   </head>
   <body class="background">
-    <cabecalho-nav></cabecalho-nav>
-
+    <cabecalho-auto></cabecalho-auto>
     <main class="conteudo-home">
-      <section class="conteudo-home--container">
-        <div class="conteudo-home__principal">
-          <div class="conteudo-home__principal--slides">
-            <input type="radio" name="radioSlide" id="radioHome1" />
-            <input type="radio" name="radioSlide" id="radioHome2" />
-            <input type="radio" name="radioSlide" id="radioHome3" />
-            <input type="radio" name="radioSlide" id="radioHome4" />
-
-            <div class="conteudo-home__slides primeiro">
-              <img src="./img/games/principais/sekiro.jpg" alt="" />
-            </div>
-            <div class="conteudo-home__slides">
-              <img src="./img/games/principais/horizon.png" alt="" />
-            </div>
-            <div class="conteudo-home__slides">
-              <img src="./img/games/principais/hitman.png" alt="" />
-            </div>
-            <div class="conteudo-home__slides">
-              <img src="./img/games/principais/battlelfield.jpg" alt="" />
-            </div>
-
-            <div class="conteudo-home__nav--auto">
-              <div class="conteudo-home__nav--autoBtn1"></div>
-              <div class="conteudo-home__nav--autoBtn2"></div>
-              <div class="conteudo-home__nav--autoBtn3"></div>
-              <div class="conteudo-home__nav--autoBtn4"></div>
-            </div>
-          </div>
-
-          <div class="conteudo-home__nav--manual">
-            <label
-              for="radioHome1"
-              class="conteudo-home__nav--manual-btn"
-            ></label>
-            <label
-              for="radioHome2"
-              class="conteudo-home__nav--manual-btn"
-            ></label>
-            <label
-              for="radioHome3"
-              class="conteudo-home__nav--manual-btn"
-            ></label>
-            <label
-              for="radioHome4"
-              class="conteudo-home__nav--manual-btn"
-            ></label>
+      <section>
+        <div id="splide" class="splide">
+          <div class="splide__track">
+            <ul class="splide__list">
+              <li class="splide__slide">
+                <div class="destaque-box"></div>
+              </li>
+              <li class="splide__slide">
+                <div class="destaque-box"></div>
+              </li>
+              <li class="splide__slide">
+                <div class="destaque-box"></div>
+              </li>
+            </ul>
           </div>
         </div>
       </section>
-      <nav class="conteudo-home__secundario container">
-        <button>
-          <img src="./img/svg/left-arrow.svg" alt="" />
-        </button>
-        <div class="conteudo-home__secundario--nav">
-          <a>
+      <section>
+        <h1 class="plataforma--titulo">Plataformas</h1>
+        <ul class="plataforma__lista plataforma-container">
+          <li class="plataforma-home__items steam">
             <img
-              src="./img/games/rev8.jpg"
-              alt=""
-              class="conteudo-home__secundario--links"
+              src="./img/svg/home-icons/steam-icon.svg"
+              class="plataforma-home__items--logo"
             />
-          </a>
-          <a>
+            <p class="plataforma-home__items--titulo">Steam</p>
+          </li>
+          <li class="plataforma-home__items xbox">
             <img
-              src="./img/games/mine.jpg"
-              alt=""
-              class="conteudo-home__secundario--links"
+              src="./img/svg/home-icons/xbox-icon.svg"
+              class="plataforma-home__items--logo"
             />
-          </a>
-          <a>
+            <p class="plataforma-home__items--titulo">Xbox</p>
+          </li>
+          <li class="plataforma-home__items epicgames">
             <img
-              src="./img/games/cod.jpg"
-              alt=""
-              class="conteudo-home__secundario--links"
+              src="./img/svg/home-icons/epicgames-icon.svg"
+              class="plataforma-home__items--logo"
             />
-          </a>
-        </div>
-        <button>
-          <img src="./img/svg/right-arrow.svg" alt="" />
-        </button>
-      </nav>
+            <p class="plataforma-home__items--titulo">Epic Games</p>
+          </li>
+          <li class="plataforma-home__items playstation">
+            <img
+              src="./img/svg/home-icons/playstation-icon.svg"
+              class="plataforma-home__items--logo"
+            />
+            <p class="plataforma-home__items--titulo">Playstation</p>
+          </li>
+          <li class="plataforma-home__items">Em breve</li>
+          <li class="plataforma-home__items">Em breve</li>
+        </ul>
+      </section>
     </main>
 
-    <rodape-nav></rodape-nav>
+    <footer class="rodape"></footer>
 
-    <script src="./components/conteudoHome-slides.js"></script>
+    <script>
+      new Splide("#splide", {
+        type: "loop",
+        perPage: 3,
+        focus: "center",
+        arrows: false,
+      }).mount();
+    </script>
   </body>
 </html>

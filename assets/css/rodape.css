@@ -1,6 +1,7 @@
 .rodape {
-  background: #110a38;
+  background: #510774;
   bottom: 0;
-  position: fixed;
+  position: relative;
   width: 100%;
+  height: 20vh;
 }

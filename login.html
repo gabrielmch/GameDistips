@@ -5,17 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/css/styles.css" />
-    <link rel="stylesheet" href="./assets/css/cabecalho.css" />
-    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-logo.css" />
+    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho.css" />
     <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-busca.css" />
     <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-links.css" />
-    <link rel="stylesheet" href="./assets/css/login.css" />
-    <link rel="stylesheet" href="./assets/css/login/login-icon.css" />
-    <link rel="stylesheet" href="./assets/css/login/login-caixa.css" />
-    <link rel="stylesheet" href="./assets/css/login/login-forms.css" />
-    <link rel="stylesheet" href="./assets/css/login/login-checkbox.css" />
-    <link rel="stylesheet" href="./assets/css/login/login-informacao.css" />
-    <link rel="stylesheet" href="./assets/css/login/login-cadastro.css" />
+    <link rel="stylesheet" href="./assets/css/login-cadastro/acesso-btn.css" />
+    <link
+      rel="stylesheet"
+      href="./assets/css/login-cadastro/login-estilos.css"
+    />
+    <link rel="stylesheet" href="./assets/css/login-cadastro/login.css" />
+    <link rel="stylesheet" href="./assets/css/login-cadastro/cadastro.css" />
     <link rel="stylesheet" href="./assets/css/rodape.css" />
     <link rel="stylesheet" href="./assets/css/rodape/rodape-nav.css" />
     <link rel="stylesheet" href="./assets/css/rodape/rodape-links.css" />
@@ -28,54 +27,109 @@
     <title>GameDistips | Login</title>
   </head>
   <body class="background">
-    <cabecalho-nav></cabecalho-nav>
+    <cabecalho-auto></cabecalho-auto>
 
-    <main class="login container">
-      <section class="login__caixa">
-        <div class="login__icon login__icon--acesso"></div>
-        <form action="" class="login__forms">
-          <label for="loginEmail" class="login__forms--label">Email</label>
+    <main class="login-box">
+      <div class="login">
+        <form action="" class="login__forms loginBlock__acesso">
           <input
             type="email"
             id="loginEmail"
-            class="login__forms--input"
-            placeholder="seuemail@email.com"
+            class="login__input"
+            placeholder="Email"
             required
           />
           <br />
-          <label for="loginSenha" class="login__forms--label">Senha</label>
           <input
             type="password"
             id="loginSenha"
-            class="login__forms--input"
+            class="login__input"
             placeholder="Senha"
             required
           />
           <br />
-          <div class="login__informacao container">
-            <div>
-              <div class="login__checkbox">
-                <input
-                  type="checkbox"
-                  id="lembrarConta"
-                  class="login__checkbox--input"
-                />
-                <label for="lembrarConta" class="login__checkbox--label">
-                  Lembrar conta
-                </label>
-              </div>
-              <a href="#" class="login__forms--link">Esqueci minha senha</a>
+          <div class="login__informacao">
+            <div class="login__checkbox">
+              <input
+                type="checkbox"
+                id="lembrarConta"
+                class="login__checkbox--input"
+                readonly
+              />
+              <label for="lembrarConta" class="login__checkbox--label">
+                Lembrar conta
+              </label>
             </div>
-            <input type="submit" value="acessar" class="login__forms--acesso" />
+            <a href="#" class="login__forms--link">Esqueci minha senha</a>
           </div>
         </form>
-        <div class="login__cadastro">
-          <span class="login__cadastro--msg"> Não possui uma conta? </span>
-          <button class="login__cadastro--input">Criar Conta</button>
-        </div>
-      </section>
+
+        <div class="login-barreira"></div>
+
+        <form action="" class="cadastro__forms">
+          <input
+            type="email"
+            id="cadastroEmail"
+            class="cadastro__input"
+            placeholder="Email"
+            required
+          />
+          <br />
+          <input
+            type="password"
+            id="cadastroSenha"
+            class="cadastro__input"
+            placeholder="Senha"
+            required
+          />
+          <br />
+          <div class="cadastro__informacao">
+            <div class="cadastro__checkbox">
+              <input
+                type="checkbox"
+                id="notificaEmail"
+                class="cadastro__checkbox--input"
+              />
+              <label for="notificaEmail" class="cadastro__checkbox--label">
+                Quero ser notificado das novidades por email
+              </label>
+            </div>
+            <div class="cadastro__checkbox">
+              <input
+                type="checkbox"
+                id="termosUso"
+                class="cadastro__checkbox--input"
+              />
+              <label for="termosUso" class="cadastro__checkbox--label">
+                Li e aceito os Termos de Uso
+              </label>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="acesso-btn__container acesso-btn">
+        <form class="acessoBtn__forms">
+          <input
+            type="radio"
+            id="loginAcessar"
+            name="acesso"
+            value="creative"
+          />
+          <label for="loginAcessar">Acessar</label>
+
+          <input
+            type="radio"
+            id="loginCadastrar"
+            name="acesso"
+            value="productive"
+          />
+          <label for="loginCadastrar">Cadastrar</label>
+
+          <div id="flap"><span class="content">productive</span></div>
+        </form>
+      </div>
     </main>
 
-    <rodape-nav></rodape-nav>
+    <script src="./components/login-page.js"></script>
   </body>
 </html>
