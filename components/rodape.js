@@ -9,13 +9,13 @@ class rodapeNav extends HTMLElement {
       <nav class="rodape__nav">
         <div>
           <a href="#">
-            <img src="./img/svg/sociais/facebook.svg" alt="" />
+            <img src="/img/svg/sociais/facebook.svg" alt="" />
           </a>
           <a href="#">
-            <img src="./img/svg/sociais/twitter.svg" alt="" />
+            <img src="/img/svg/sociais/twitter.svg" alt="" />
           </a>
           <a href="#">
-            <img src="./img/svg/sociais/instagram.svg" alt="" />
+            <img src="/img/svg/sociais/instagram.svg" alt="" />
           </a>
         </div>
         <div class="rodape__links">

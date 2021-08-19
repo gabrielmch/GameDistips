@@ -1,4 +1,4 @@
-class cabecalhoNav extends HTMLElement {
+class cabecalhoAuto extends HTMLElement {
   constructor() {
     super();
   }
@@ -6,21 +6,20 @@ class cabecalhoNav extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
     <header>
-      <nav class="cabecalho container">
-          <a href="index.html" class="cabecalho__logo">GameDistips</a>
-          <div class="cabecalho__busca">
-            <input type="text" placeholder="Buscar por Jogos" />
-            <button class="cabecalho__busca--botao" type="submit"></button>
-          </div>
-          <div class="cabecalho__links">
-            <a href="promocoes.html">Promoções</a>
-            <a href="#">Lista de Desejos</a>
-            <a href="plataformas.html">Plataformas</a>
-            <a href="login.html">Entrar</a>
-          </div>
-      </nav>
-    </header>
+    <nav class="cabecalho">
+      <div class="cabecalho__busca">
+        <input type="text" placeholder="Buscar por Jogos" />
+        <button class="cabecalho__busca--botao" type="submit"></button>
+      </div>
+      <div>
+        <a href="index.html" class="cabecalho__links">Home</a>
+        <a href="#" class="cabecalho__links">Plataformas</a>
+        <a href="promocoes.html" class="cabecalho__links">Promoções</a>
+        <a href="login.html" class="cabecalho__links">Login</a>
+      </div>
+    </nav>
+  </header>
     `;
   }
 }
-customElements.define("cabecalho-nav", cabecalhoNav);
+customElements.define("cabecalho-auto", cabecalhoAuto);

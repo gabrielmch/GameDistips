@@ -1,0 +1,17 @@
+@import "./splide-core.min.css";
+
+.destaques__bg {
+  height: 100vh;
+  background-color: rgba(30, 29, 29, 0.1);
+}
+.destaque-box {
+  width: 80%;
+  height: 240px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  margin: 50px;
+}
+
+.splide .splide__slide {
+  margin: 0 -24px;
+}

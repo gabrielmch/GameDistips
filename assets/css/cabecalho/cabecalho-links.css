@@ -1,19 +1,10 @@
 .cabecalho__links {
-  align-items: center;
-  display: flex;
-  justify-content: center;
-}
-.cabecalho__links a {
   color: white;
   font-size: 18px;
   margin-left: 16px;
-  font-weight: bold;
   text-decoration: none;
-  text-transform: uppercase;
   transition: all 1s;
 }
-.cabecalho__links a:hover {
-  border-bottom: #00a3ff solid 4px;
-  color: #00a3ff;
-  padding: 0;
+.cabecalho__links:hover {
+  text-decoration: underline;
 }

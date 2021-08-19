@@ -1,14 +1,14 @@
 .cabecalho__busca {
   display: flex;
-  margin-left: 30px;
   width: 30%;
 }
 .cabecalho__busca input {
   border: none;
-  border-radius: 10px 0px 0px 10px;
+  border-radius: 20px 0px 0px 20px;
   font-size: 12px;
   padding: 0.8em 1em;
   width: 100%;
+  box-shadow: 5px 7px 7px rgba(0, 0, 0, 0.1);
 }
 .cabecalho__busca input:focus {
   outline: none;
@@ -20,12 +20,11 @@
   background-repeat: no-repeat;
   background-size: 22px;
   border: none;
-  border-radius: 0 10px 10px 0;
+  border-radius: 0 20px 20px 0;
   width: 15%;
+  outline: none;
+  box-shadow: 5px 7px 7px rgba(0, 0, 0, 0.1);
 }
 .cabecalho__busca--botao:hover {
   cursor: pointer;
-}
-.cabecalho__busca--botao:focus {
-  outline: none;
 }

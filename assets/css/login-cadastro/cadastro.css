@@ -1,0 +1,53 @@
+.cadastro__forms {
+  width: 40%;
+  align-items: center;
+  padding: 35px;
+}
+.cadastro__input {
+  outline: none;
+  border: none;
+  background: none;
+  font-size: 18px;
+  width: 100%;
+  color: white;
+  border-bottom: solid 4px #fefefe;
+  border-radius: 3px;
+  margin-bottom: 8px;
+}
+.cadastro__input::placeholder {
+  color: white;
+}
+
+.cadastro__checkbox {
+  align-items: center;
+  display: flex;
+  margin: 10px 0;
+}
+.cadastro__checkbox--input {
+  -webkit-appearance: none;
+  background: white;
+  border-radius: 5px;
+  height: 15px;
+  width: 15px;
+}
+.cadastro__checkbox--input:hover {
+  background-color: #9ea7a3;
+  cursor: pointer;
+}
+.cadastro__checkbox--input:checked {
+  background-color: #00ff8f;
+}
+.cadastro__checkbox--input:focus {
+  outline: none;
+}
+
+.cadastro__checkbox--label {
+  color: white;
+  font-size: 16px;
+  padding-left: 4px;
+  width: 100%;
+}
+
+.cadastro__informacao {
+  align-items: center;
+}
