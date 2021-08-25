@@ -12,7 +12,7 @@ class cabecalhoAuto extends HTMLElement {
         <button class="cabecalho__busca--botao" type="submit"></button>
       </div>
       <div>
-        <a href="index.html" class="cabecalho__links">Home</a>
+        <a href="home.html" class="cabecalho__links">Home</a>
         <a href="#" class="cabecalho__links">Plataformas</a>
         <a href="promocoes.html" class="cabecalho__links">Promoções</a>
         <a href="login.html" class="cabecalho__links">Login</a>
