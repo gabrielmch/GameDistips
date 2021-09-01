@@ -10,10 +10,10 @@
   padding: 2em 0;
   justify-content: center;
 }
-.login-barreira {
+.login-barra {
   background: #fefefe;
   width: 4px;
-  height: 220px;
+  height: 255px;
   border-radius: 2px;
   display: flex;
   justify-content: center;
@@ -24,23 +24,32 @@
   background: rgba(81, 7, 116, 0.25);
   border-radius: 10px 0 0 10px;
   pointer-events: none;
+  filter: blur(1.5px);
 }
 .loginBlock__cadastro {
   background: rgba(81, 7, 116, 0.25);
   border-radius: 0 10px 10px 0;
   pointer-events: none;
+  filter: blur(1.5px);
 }
-/*.loginBlock__input {
-  outline: none;
+
+.loginBtn {
+  background: white;
   border: none;
-  background: none;
-  font-size: 18px;
-  width: 100%;
-  border-bottom: solid 4px #c3c3c3;
-  border-radius: 3px;
-  margin-bottom: 8px;
+  margin: 0.8em 40% 0 40%;
+  padding: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 1s;
 }
-.loginBlock__input::placeholder {
-  color: #c3c3c3;
+.loginBtn:hover,
+.loginBtn:focus {
+  box-shadow: 0 0.8em 0.5em -0.5em #43c0f1;
+  transform: translateY(-0.4em);
 }
-*/
+.loginBtn--caixa {
+  float: right;
+}
