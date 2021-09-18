@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho.css" />
+    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-busca.css" />
+    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-links.css" />
+    <link rel="stylesheet" href="./assets/css/perfil/perfil.css" />
+    <link rel="stylesheet" href="./assets/css/perfil/perfil-head.css" />
+    <link rel="stylesheet" href="./assets/css/perfil/perfil-content.css" />
+    <link rel="stylesheet" href="./assets/css/rodape.css" />
+    <link rel="stylesheet" href="./assets/css/rodape/rodape-nav.css" />
+    <link rel="stylesheet" href="./assets/css/rodape/rodape-links.css" />
+    <script
+      src="./components/cabecalho.js"
+      type="text/javascript"
+      defer
+    ></script>
+    <script src="./components/rodape.js" type="text/javascript" defer></script>
+    <title>GameDistips | Perfil</title>
+  </head>
+  <body class="background">
+    <cabecalho-auto></cabecalho-auto>
+    <main>
+      <section class="perfil__head">
+        <div class="perfil__head--user">
+          <img
+            src="./img/svg/perfil/icon-perfil.svg"
+            alt="alterar foto de perfil"
+            class="perfil--icon"
+          />
+          <h1 class="perfil--nickname">Nickname</h1>
+        </div>
+        <div class="perfil--options">
+          <a href="#" class="perfil--edit">Editar Perfil</a>
+          <button id="btnDeslogar" class="perfil--btn">Deslogar</button>
+        </div>
+      </section>
+      <section class="perfil__content">
+        <div class="perfil__listaDesejos">
+          <h2 class="perfil--titulos">Lista de Desejos</h2>
+          <a href="#" class="perfil__listaDesejos--jogos"></a>
+        </div>
+        <div class="perfil__plataformas">
+          <h3 class="perfil--titulos">Plataformas Favoritas</h3>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

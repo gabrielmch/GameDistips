@@ -1,7 +1,7 @@
 .promocoes__conteudo {
   display: flex;
   flex-wrap: wrap;
-  width: 30%;
+  width: 50%;
 }
 .promocoes__conteudo--item {
   background: white;

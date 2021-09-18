@@ -1,6 +1,6 @@
 .promocoes {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   margin: 2em;
   height: 100vh;

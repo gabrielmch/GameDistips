@@ -62,12 +62,9 @@
             </div>
             <a href="#" class="login__forms--link">Esqueci minha senha</a>
           </div>
-          <input
-            type="submit"
-            id="acessarSubmit"
-            class="loginBtn"
-            value="Entrar"
-          />
+          <button type="submit" id="acessarSubmit" class="loginBtn">
+            Entrar
+          </button>
         </form>
 
         <div class="login-barra"></div>
@@ -105,35 +102,28 @@
                 type="checkbox"
                 id="termosUso"
                 class="cadastro__checkbox--input"
+                required
               />
               <label for="termosUso" class="cadastro__checkbox--label">
                 Li e aceito os Termos de Uso
               </label>
             </div>
-            <input
-              type="submit"
-              id="cadastrarSubmit"
-              class="loginBtn"
-              value="Cadastrar-se"
-            />
+            <button type="submit" id="cadastrarSubmit" class="loginBtn">
+              Cadastre-se
+            </button>
           </div>
         </form>
       </div>
       <div class="acesso-btn__container acesso-btn">
         <form class="acessoBtn__forms">
-          <input
-            type="radio"
-            id="loginAcessar"
-            name="acesso"
-            value="creative"
-          />
+          <input type="radio" id="loginAcessar" name="acesso" value="Acessar" />
           <label for="loginAcessar">Acessar</label>
 
           <input
             type="radio"
             id="loginCadastrar"
             name="acesso"
-            value="productive"
+            value="Cadastrar"
           />
           <label for="loginCadastrar">Cadastrar</label>
 
