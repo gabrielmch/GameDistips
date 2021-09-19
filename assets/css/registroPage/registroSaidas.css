@@ -1,0 +1,21 @@
+.registroSaidas {
+  margin-top: 2em;
+}
+.registroBtn {
+  padding: 18px;
+  font-size: 18px;
+  border: none;
+  background: #fefefe;
+  border-radius: 20px;
+  margin: 0 2em;
+  color: #ad00ff;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: 1s all;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+}
+.registroBtn:hover {
+  background: #ad00ff;
+  color: #fefefe;
+}

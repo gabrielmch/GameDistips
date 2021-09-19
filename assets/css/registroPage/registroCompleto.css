@@ -1,0 +1,45 @@
+.registro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 5em 0;
+}
+
+.registro__circulo {
+  width: 330px;
+  height: 330px;
+  border: 5px solid #fefefe;
+  margin: auto;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.registro__esfera {
+  width: 30px;
+  height: 30px;
+  background: #fefefe;
+  border-radius: 50%;
+  position: absolute;
+  overflow: hidden;
+  margin: auto;
+  animation: circle 6s linear infinite;
+}
+
+.registro__titulo {
+  color: #fefefe;
+  font-weight: bold;
+  font-size: 4em;
+  text-align: center;
+}
+
+@keyframes circle {
+  0% {
+    transform: rotate(0deg) translate(-165px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translate(-165px) rotate(-360deg);
+  }
+}
